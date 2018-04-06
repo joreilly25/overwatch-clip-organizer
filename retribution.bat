@@ -6,5 +6,3 @@ for /f "tokens=*" %%f in ('dir /b *.mp4 2^>nul') do (
   echo "moving %%f to retribution\\retribution-Justin-%%f"
   move "%%f" "retribution\\retribution-Justin-%%f"
 )
-
-timeout /t 5 /nobreak > NUL
