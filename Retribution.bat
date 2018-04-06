@@ -7,6 +7,6 @@ for /f "tokens=*" %%f in ('dir /b *.mp4 2^>nul') do (
   move "%%f" "Retribution\\Retribution-Justin-%%f"
 )
 
-timeout /t 5 /nobreak > NUL
-GOTO startloop
-pause
+REM timeout /t 5 /nobreak > NUL
+REM GOTO startloop
+REM pause
