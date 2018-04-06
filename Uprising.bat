@@ -8,5 +8,5 @@ for /f "tokens=*" %%f in ('dir /b *.mp4 2^>nul') do (
 )
 
 timeout /t 5 /nobreak > NUL
-GOTO startloop
-pause
+REM GOTO startloop
+REM pause
