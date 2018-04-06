@@ -1,10 +1,10 @@
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
-mkdir comp
+mkdir retribution
 :startloop
 for /f "tokens=*" %%f in ('dir /b *.mp4 2^>nul') do (
-  echo "moving %%f to comp\\comp-Justin-%%f"
-  move "%%f" "comp\\comp-Justin-%%f"
+  echo "moving %%f to retribution\\retribution-Justin-%%f"
+  move "%%f" "retribution\\retribution-Justin-%%f"
 )
 
 timeout /t 5 /nobreak > NUL

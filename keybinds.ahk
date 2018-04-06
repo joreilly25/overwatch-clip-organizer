@@ -1,7 +1,15 @@
 !F5::
-  Run "E:\Videos\Overwatch\qp.bat"
+  Run "min.vbs" "qp.bat"
   Return
 
 !F6::
-  Run "E:\Videos\Overwatch\comp.bat"
+  Run "min.vbs" "comp.bat"
   Return
+
+!F7::
+Run "min.vbs" "uprising.bat"
+Return
+
+!F8::
+Run "min.vbs" "retribution.bat"
+Return
