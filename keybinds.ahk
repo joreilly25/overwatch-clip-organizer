@@ -7,9 +7,5 @@
   Return
 
 !F7::
-Run "min.vbs" "uprising.bat"
-Return
-
-!F8::
-Run "min.vbs" "retribution.bat"
+Run "min.vbs" "arcade.bat"
 Return
